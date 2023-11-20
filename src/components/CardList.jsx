@@ -4,6 +4,9 @@ import Card  from './Card'
 
 // eslint-disable-next-line react/prop-types
 const CardList = ({robots}) => {
+  // if(true){
+  //   throw new Error('hello ji')
+  // }
   return (
     <div>
       {robots.map(
