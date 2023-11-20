@@ -1,0 +1,18 @@
+#root {
+  text-align: center;
+}
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('./SEGA.woff') format('woff');
+}
+
+
+.main_header{
+  font-family: 'SEGA LOGO FONT';
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  color: #0ccac4;
+  letter-spacing: 3px;
+}
